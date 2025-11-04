@@ -9,12 +9,12 @@ from typing import Iterable, List, Generator, Optional
 import math
 import asyncio
 
-
+# TODO
 def constant_time(value: int) -> int:
     """O(1) - return the input unchanged."""
     return value
 
-
+# BUGfix
 def linear_sum(values: Iterable[int]) -> int:
     """O(n) - sum all values in an iterable."""
     total = 0
@@ -22,7 +22,7 @@ def linear_sum(values: Iterable[int]) -> int:
         total += v
     return total
 
-
+# FixMe
 def quadratic_pair_sums(values: List[int]) -> List[int]:
     """O(n^2) - return sums for every ordered pair (i, j).
 
