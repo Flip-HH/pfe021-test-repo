@@ -13,6 +13,11 @@ def calculate_discount(price: float, discount_percent: float) -> float:
     
     # TODO: Add validation for negative prices
     # TODO: Consider adding support for multiple discount types
+    # TODO
+    #TODO
+    #todo
+    # TODO
+    # FIXME
     """
     return price * (1 - discount_percent / 100)
 
