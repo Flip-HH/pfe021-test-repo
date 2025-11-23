@@ -28,6 +28,13 @@ d = 4
 e = 5
 f = a + b + c + d - e
 
+a = 1
+b = 2
+c = 3
+d = 4
+e = 5
+f = a + b + c + d - e
+
 def unique_function_a():
     """This function is unique to file_a"""
     words = ["Lorem", "Ipsum", "Dolor"]
