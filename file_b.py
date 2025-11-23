@@ -30,6 +30,12 @@ def unique_function_b():
         result.append(item.lower())
     return result
 
+a = 1
+b = 2
+c = 3
+d = 4
+e = 5
+f = a + b + c + d - e
 
 if __name__ == "__main__":
     print("=== file_b.py ===")
