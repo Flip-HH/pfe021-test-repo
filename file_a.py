@@ -21,6 +21,12 @@ def duplicate_three():
     data = {"name": "Lorem", "value": 42}
     return f"{data['name']}: {data['value']}"
 
+a = 1
+b = 2
+c = 3
+d = 4
+e = 5
+f = a + b + c + d - e
 
 def unique_function_a():
     """This function is unique to file_a"""
